@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec  3 13:05:00 2024
-
-@author: GULO1L
+Build model and document results
 """
 import DataPrep
 import Chart

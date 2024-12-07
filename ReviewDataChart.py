@@ -6,7 +6,7 @@ import DataPrep
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Sample a few pipelines for visualization of rolling metrics 
+# Use a few pipelines for visualization of rolling metrics 
 sample_pipelines = DataPrep.df_realistic['pipeline_name'].unique()[:5]  # Use the first 5 pipelines as samples
 
 # Plot 1: Failure Rate by Pipeline

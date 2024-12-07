@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec  3 13:01:14 2024
-
-@author: GULO1L
+Charts to review and analyze initial data 
 """
 import DataPrep
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Sample a few pipelines for visualization of rolling metrics (to keep it clear)
+# Sample a few pipelines for visualization of rolling metrics 
 sample_pipelines = DataPrep.df_realistic['pipeline_name'].unique()[:5]  # Use the first 5 pipelines as samples
 
 # Plot 1: Failure Rate by Pipeline

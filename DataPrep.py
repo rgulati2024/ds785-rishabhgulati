@@ -12,9 +12,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.preprocessing import StandardScaler
 
-# Sample DataFrame setup (Replace with actual data)
-# Assuming your data has these columns: 'pipeline_name', 'start_time', 'end_time', 'fail_flag', 'run_time'
-# Load your data (replace 'your_data.csv' with the actual file or source)
+# Load data
 data = pd.read_csv('pipeline_log.csv')
 
 # Feature engineering

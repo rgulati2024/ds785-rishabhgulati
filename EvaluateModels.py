@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec  3 13:16:07 2024
-
-@author: GULO1L
+Evaluate model and hyperparameter tuning
 """
 import ModelBuild
 from sklearn.model_selection import train_test_split, GridSearchCV
